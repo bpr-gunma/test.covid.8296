@@ -119,10 +119,10 @@ header {
 	margin-bottom: 20px;	/*ボックス同士の上下間の余白*/
 	background: rgb(255, 255, 255);		/*背景色*/
 	color: rgb(32, 32, 32);	/*文字色*/
-	border: 1px solid #000;	/*枠線の幅、線種、色*/
+	border: 1px solid rgb(255, 255, 255);	/*枠線の幅、線種、色*/
 	border-radius: 3px;		/*角丸のサイズ。この行削除すれば通常の長方形になる。*/
 	height: 500px;			/*(CMS専用)*/
-	height: 343px;			/*高さ（下の「#main .list a」の高さと揃える）◆230→340に変更*/
+	height: 360px;			/*高さ（下の「#main .list a」の高さと揃える）◆230→360に変更*/
 	line-height: 1.4;
 	position: relative;
 }
@@ -138,8 +138,8 @@ header {
 	background: #fff;	/*マウスオン時の背景色*/
 	color: #000;		/*マウスオン時の文字色*/
 }
-/*ボックスにリンク指定がされた場合に出る「→」マーク*/
-#main .list a::before {
+/*ボックスにリンク指定がされた場合に出る「→」マーク ◆a→zに変更*/
+#main .list z::before {
 	content: "→";	/*この文字を出す。他の文字に変えても可だが機種依存文字は化けるので使わない。*/
 	position: absolute;
 	right: 20px;	/*ボックスの右から20pxの場所に配置*/
