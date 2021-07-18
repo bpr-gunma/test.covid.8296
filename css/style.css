@@ -122,7 +122,7 @@ header {
 	border: 1px solid rgb(255, 255, 255);	/*枠線の幅、線種、色*/
 	border-radius: 3px;		/*角丸のサイズ。この行削除すれば通常の長方形になる。*/
 	height: 500px;			/*(CMS専用)*/
-	height: 360px;			/*高さ（下の「#main .list a」の高さと揃える）◆230→360に変更*/
+	height: 400px;			/*高さ（下の「#main .list a」の高さと揃える）◆230→360→400に変更*/
 	line-height: 1.4;
 	position: relative;
 }
