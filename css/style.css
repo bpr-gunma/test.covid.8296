@@ -662,7 +662,7 @@ body.s-n #sub {
 	float: none;
 	width: auto;
 	margin-left: 0;
-	height: 550px;　/*◆auto→550pxに変更*/
+	height: auto;
 }
 #main .list a {
 	height: auto;
